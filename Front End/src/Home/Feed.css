@@ -1,0 +1,143 @@
+.responsive-div {
+    width: 100%;
+    max-width: 800px; /* Adjust this value to set the maximum width of the div */
+    margin: 0 auto; /* Centers the div horizontally */
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    /* border-radius: "10px" */
+  }
+  @media (max-width: 850px) {
+    .responsive-div {
+      padding: 10px;
+    }
+  }
+
+.icon{
+    display: inline-block;
+    margin-right: 0;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.name{
+    text-align: left;
+    margin-left: 2%;
+    color: black;
+    display: inline-block;
+}
+.name p{
+    font-size: 12px;
+    margin-top: 0px;
+}
+.post{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: "left";
+    /* display: flex; */
+    margin-left: 3%;
+    max-width: 750px;
+    word-wrap: break-word;
+    /* width: 32.6%; */
+    /* overflow: auto;  */
+    /* word-wrap: break-word; */
+}
+
+
+.cardContainer {
+  max-width: "80%";
+  margin-top: "0%";
+}
+
+.cardMedia {
+  height: 194px;
+}
+
+.cardContent {
+  padding: 16px;
+  /* width: "60%" */
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  width: "60%"
+}
+.cardMedia
+{
+  object-fit: cover;
+}
+
+.cardMedia {
+  object-fit: cover;
+  height: 500px;
+}
+
+.favoriteIcon {
+  color: red;
+}
+.css-hyum1k-MuiToolbar-root {
+  min-height: 64px;
+  /* background-color: rgb(45, 43, 43); */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: "100%" */
+  /* height: calc(100vh - 66px);  */
+  /* margin-top: "10%"; */
+}
+
+.appbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.whole {
+  margin-top: 64px; 
+}
+
+.name
+{
+  display: flex;
+  padding-left: 92%;
+}
+
+.a{
+  font-size: x-large;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:1000;
+}
+
+.likes
+{
+  /* margin-left: 1%;
+  padding-right: 85%; */
+  text-align: left;
+  margin-right: "50%";
+}
+
+.comm{
+  /* margin-left: "50%"; */
+  margin-left: 27%;
+}
+
+.qwe
+{
+  display: flex;
+  /* justify-content: space-between; */
+  margin-left: "1%";
+}
+
